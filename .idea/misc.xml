@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Punya Pribadi/Project/HomeApp/app/src/main/res/layout/dialog_loading.xml" value="0.36666666666666664" />
+        <entry key="..\:/Punya Pribadi/Project/HomeApp/app/src/main/res/layout/error_dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/Punya Pribadi/Project/HomeApp/app/src/main/res/layout/fragment_home_transactionlist.xml" value="0.36666666666666664" />
+        <entry key="..\:/Punya Pribadi/Project/HomeApp/app/src/main/res/layout/fragment_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Punya Pribadi/Project/HomeApp/app/src/main/res/layout/fragment_statistic_monthly.xml" value="0.36666666666666664" />
+        <entry key="..\:/Punya Pribadi/Project/HomeApp/app/src/main/res/layout/list_monthly_card.xml" value="0.36666666666666664" />
+        <entry key="..\:/Punya Pribadi/Project/HomeApp/app/src/main/res/layout/list_transaction.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable-v24/bg_gradient_auth.xml" value="0.3828125" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable-v24/button_radius_blue.xml" value="0.3828125" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable-v24/button_radius_gray.xml" value="0.3828125" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable-v24/et_cust_data.xml" value="0.3828125" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable-v24/transparant_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/bg.xml" value="0.28378378378378377" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/bg_gradient_atuh.xml" value="1.453125" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/bg_gradient_auth.xml" value="0.287109375" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/bg_gradient_rv_transaction.xml" value="0.28378378378378377" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/bg_home_ronded.xml" value="0.3828125" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/bg_mastercard_blue.xml" value="0.287109375" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/bg_mastercard_orange.xml" value="0.287109375" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/bg_rounded_item.xml" value="0.287109375" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/button_radius_blue.xml" value="0.3828125" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/button_radius_orange.xml" value="0.3828125" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/ic_baseline_album_24.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/ic_baseline_album_24_accent.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/ic_baseline_electrical_services_24.xml" value="0.287109375" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/ic_baseline_food_bank_24.xml" value="0.287109375" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/ic_baseline_local_grocery_store_24.xml" value="0.287109375" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/ic_baseline_monetization_on_24.xml" value="0.287109375" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/ic_baseline_show_chart_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/ic_baseline_visibility_24.xml" value="0.287109375" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/ic_baseline_visibility_off_24.xml" value="0.287109375" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.287109375" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/rounded_statistic.xml" value="0.3828125" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/drawable/rounded_weekly_card.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/layout/card_list_user.xml" value="0.275" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/layout/dialog_loading.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/layout/error_dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/layout/fragment_home_transaction.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/layout/fragment_notifications.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/layout/fragment_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/layout/fragment_statistic.xml" value="0.22" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/layout/fragment_statistic_daily.xml" value="0.275" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/layout/fragment_statistic_monthly.xml" value="0.32303370786516855" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/layout/fragment_statistic_weekly.xml" value="0.275" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/layout/list_card_user.xml" value="0.275" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/layout/list_monthly_card.xml" value="0.22" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/layout/list_transaction.xml" value="0.275" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/layout/list_weekly_card.xml" value="0.5" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.22" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/menu/bottom_nav_menu1.xml" value="0.75" />
+        <entry key="..\:/Users/fahmi.febriyansyah/AndroidStudioProjects/HomeApp/app/src/main/res/menu/bottom_nav_menus.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

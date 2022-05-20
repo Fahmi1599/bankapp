@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_main"
+    tools:context=".ui.ui.home.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/extra_small_margin"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/notif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/small_margin"
+            android:padding="@dimen/small_margin"
+            android:src="@drawable/ic_notifications_black_24dp"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_badge_goal"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            app:cardBackgroundColor="@color/red"
+            android:layout_marginTop="@dimen/extra_small_margin"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/medium_margin"
+            android:foregroundGravity="center"
+            app:cardCornerRadius="50dp">
+            <TextView
+                android:id="@+id/tv_badge_goal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="5"
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:textColor="@color/white"/>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/current_balance"
+            android:gravity="center"
+            android:fontFamily="@font/poppins"
+            android:textSize="16sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Rp 7.000.000"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="32sp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:background="@color/transparant"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_home_ronded"
+        android:orientation="vertical">
+
+        <!--Card RecyclerView-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:padding="@dimen/medium_margin"
+            tools:itemCount="1"
+            tools:listitem="@layout/list_card_user"/>
+
+<!--Popular Operation-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/medium_margin"
+
+            android:text="Popular Operation"/>
+
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollIndicators="none"
+            android:keepScreenOn="false"
+            android:background="@color/transparant"
+            android:layout_marginHorizontal="@dimen/small_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/extra_small_margin"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:outlineAmbientShadowColor="@color/white"
+                android:background="@drawable/bg_rounded_item">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:src="@drawable/ic_baseline_monetization_on_24"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textAlignment="center"
+                    android:text="Transfer"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="@dimen/extra_small_margin"
+                android:background="@drawable/bg_rounded_item">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:src="@drawable/ic_baseline_food_bank_24"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="Food"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:background="@drawable/bg_rounded_item">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:src="@drawable/ic_baseline_local_grocery_store_24"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="Mart"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/extra_small_margin"
+                android:layout_marginRight="@dimen/small_margin"
+                android:background="@drawable/bg_rounded_item">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:src="@drawable/ic_baseline_electrical_services_24"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textAlignment="center"
+                    android:text="Electronica"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        </HorizontalScrollView>
+        </LinearLayout>
+        <!--Popular Operation-->
+
+        <!--Transaction Recent-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/medium_margin"
+            android:text="Transaction"/>
+
+        <FrameLayout
+            android:id="@+id/frameTransaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

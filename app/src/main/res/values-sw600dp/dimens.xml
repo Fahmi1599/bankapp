@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- common size -->
+    <dimen name="xxx_large_text">40sp</dimen>
+    <dimen name="xx_large_text">32sp</dimen>
+    <dimen name="x_large_text">24sp</dimen>
+    <dimen name="large_text">18sp</dimen>
+    <dimen name="medium_text">14sp</dimen>
+    <dimen name="small_text">12sp</dimen>
+    <dimen name="extra_small_text">10sp</dimen>
+
+    <dimen name="large_margin">32dp</dimen>
+    <dimen name="medium_margin">24dp</dimen>
+    <dimen name="small_margin">16dp</dimen>
+    <dimen name="extra_small_margin">8dp</dimen>
+
+    <dimen name="large_padding">32dp</dimen>
+    <dimen name="medium_padding">24dp</dimen>
+    <dimen name="small_padding">16dp</dimen>
+    <dimen name="extra_small_padding">8dp</dimen>
+
+    <!-- other size -->
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_48">48dp</dimen>
+    <dimen name="dp_56">56dp</dimen>
+    <dimen name="dp_64">64dp</dimen>
+    <dimen name="dp_72">72dp</dimen>
+    <dimen name="dp_80">80dp</dimen>
+    <dimen name="dp_88">88dp</dimen>
+
+    <!-- big size -->
+    <dimen name="dp_100">100dp</dimen>
+    <dimen name="dp_120">120dp</dimen>
+    <dimen name="dp_150">150dp</dimen>
+    <dimen name="dp_160">160dp</dimen>
+    <dimen name="dp_175">175dp</dimen>
+    <dimen name="dp_200">200dp</dimen>
+    <dimen name="dp_250">250dp</dimen>
+    <dimen name="dp_300">300dp</dimen>
+    <dimen name="dp_350">350dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>

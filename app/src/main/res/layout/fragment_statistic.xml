@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_main"
+    tools:context=".ui.ui.statistic.StatisticFragment">
+
+
+    <TextView
+        android:id="@+id/statistic_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/medium_margin"
+        android:layout_marginTop="50dp"
+        android:text="@string/statistic_tittle"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp" />
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/statistic_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/small_margin"
+        android:layout_marginTop="@dimen/medium_margin"
+        app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+        app:tabGravity="fill"
+        app:tabSelectedTextColor="@color/white"
+        app:tabIndicatorColor="@color/colorPrimaryDark"
+        app:tabTextColor="@color/font_gray_light"
+        app:tabIndicatorFullWidth="true"
+        app:tabIndicatorAnimationDuration="@integer/material_motion_duration_short_1"
+        app:layout_constraintTop_toBottomOf="@id/statistic_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tabMode="fixed"
+        app:tabIndicatorAnimationMode="linear"
+        app:tabIndicatorGravity="stretch"
+        android:scrollIndicators="top"
+        app:tabRippleColor="@color/colorPrimaryDark"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.Design.TabLayout"
+            android:text="@string/daily_tittle"/>
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/weekly_tittle"/>
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/monthly_tittle"/>
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/statistic_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_home_ronded"
+        app:layout_constraintTop_toBottomOf="@id/statistic_tabs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

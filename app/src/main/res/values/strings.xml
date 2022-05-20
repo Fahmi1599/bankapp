@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HomeApp</string>
+
+
+    <!-- Fragment Main Activity -->
+    <string name="title_home">Home</string>
+    <string name="title_statistic">Statistic</string>
+    <string name="title_card">Card</string>
+    <string name="title_profile">Profile</string>
+    <string name="current_balance">Current Balance</string>
+    <string name="money_value">Rp X.XXX.XXX</string>
+    <string name="statistic_tittle">Statistic</string>
+    <string name="daily_tittle">Daily</string>
+    <string name="weekly_tittle">Weekly</string>
+    <string name="monthly_tittle">Monthly</string>
+    <string name="balance">Balance</string>
+
+
+</resources>
